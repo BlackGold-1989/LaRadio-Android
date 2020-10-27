@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_radio_player1" />
+
+        <ProgressBar
+            android:id="@+id/loadingIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="100dp"
+            android:progress="100" />
+
+        <TextView
+            android:id="@+id/loadingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loadingIndicator"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="@string/connecting"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_radio_player2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
+            android:text="Live streaming La Radio Sv"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:background="@color/metadataBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnBar"
+            android:animateLayoutChanges="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/now_playing_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/now_listening"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/now_playing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="metadata"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnBar"
+            android:background="@color/playBar"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/btn_pause"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/btn_pause"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/btn_play"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:enabled="false"
+                android:padding="5dp"
+                android:src="@drawable/btn_play"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<resources>
+
+    <!--application name-->
+    <string name="app_name">La Radio Sv</string>
+
+    <!--navigation drawer menu name-->
+    <string name="drawer_home">Home</string>
+    <string name="drawer_social">Social</string>
+    <string name="drawer_rate">Rate</string>
+    <string name="drawer_about">About La Radio Sv</string>
+
+    <!--about information-->
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_email">laradio.sv@gmail.com </string>
+    <string name="app_copyright">La RadioSv</string>
+    <string name="share_summary">Share to your friends</string>
+    <string name="rate_summary">Give your rate and feedback</string>
+    <string name="more_summary">Want to request a song?</string>
+    <string name="title_app_name">Application Name</string>
+    <string name="title_app_version">Build Version</string>
+    <string name="title_app_email">Email</string>
+    <string name="title_app_copyright">Copyright</string>
+    <string name="title_app_share">Share</string>
+    <string name="title_app_rate">Rate</string>
+    <string name="title_app_more">More</string>
+
+    <!--admob banner and interstitial id-->
+    <string name="admob_banner_id">ca-app-pub-3894747381242365~5767468981</string>
+    <string name="admob_interstitial_id">ca-app-pub-3894747381242365~5767468981</string>
+
+    <!--social network-->
+    <string name="social_tab1">Facebook</string>
+    <string name="social_tab2">Twitter</string>
+    <string name="facebook_url">https://www.facebook.com/La-Radio-SV-109830723742396/ </string>
+    <string name="twitter_url">http://twitter.com/LaRadioSV1 </string>
+
+    <!-- play store application link i.e more apps -->
+    <string name="play_more_apps">https://facebook.com/La-Radio-SV-109830723742396</string>
+
+    <!--share text-->
+    <string name="share">Share</string>
+    <string name="share_text">I Would like to share this with you. Here You Can Download This Application from PlayStore</string>
+
+    <!--radio player-->
+    <string name="live_streaming">La Radio Sv</string>
+    <string name="connecting">Connecting&#8230;</string>
+    <string name="now_listening">Now Listening :</string>
+
+    <!--notification playing bar-->
+    <string name="notification_title">Live Streaming</string>
+    <string name="notification_subtitle">La Radio Sv App</string>
+
+    <!--connection-->
+    <string name="alert_network">Please Enable Your Internet Connection to Play Radio Streaming!</string>
+    <string name="error_retry">Can not Reach the Radio Server, Probably the Server Currently Down!</string>
+    <string name="no_network">Failed to Connect Network!</string>
+    <string name="volume_low">Turn your volume up to listen the radio!</string>
+
+    <!--exit dialog-->
+    <string name="message">What do you want to do?</string>
+    <string name="quit">Quit</string>
+    <string name="minimize">Minimize</string>
+    <string name="cancel">Cancel</string>
+
+    <!--others-->
+    <string name="drawer_open">Drawer Menu Opened</string>
+    <string name="drawer_close">Drawer Menu Closed</string>
+
+</resources>

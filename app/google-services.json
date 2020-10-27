@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "709596827436",
+    "firebase_url": "https://la-radio-sv.firebaseio.com",
+    "project_id": "la-radio-sv",
+    "storage_bucket": "la-radio-sv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709596827436:android:606fc94519cb51eb4d6689",
+        "android_client_info": {
+          "package_name": "com.firecast.laradiosv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709596827436-3t67e2ebl9allkec3oc3rrd53n82aegq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlDMFucoqVrd6uFlg25FEIeVGJmXzFU1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709596827436-3t67e2ebl9allkec3oc3rrd53n82aegq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
